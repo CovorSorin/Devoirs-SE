@@ -1,0 +1,44 @@
+2017-03-22 19:38:51,141 INFO Main start
+2017-03-22 19:38:51,157 INFO (<function dites_bonjour at 0x02C0CDF0>, 'Mlle. Maria')
+2017-03-22 19:38:51,157 INFO (<function dites_bonjour at 0x02C0CDF0>, 'Mlle. Ruth')
+2017-03-22 19:38:51,157 INFO (<function dites_bonjour at 0x02C0CDF0>, 'Mlle. Savannah')
+2017-03-22 19:38:51,237 INFO Process-1 says that dites_bonjour Mlle. Maria = Bonjour Mlle. Maria !
+2017-03-22 19:38:51,239 INFO Process-1 says that dites_bonjour Mlle. Ruth = Bonjour Mlle. Ruth !
+2017-03-22 19:38:51,239 INFO Process-1 says that dites_bonjour Mlle. Savannah = Bonjour Mlle. Savannah !
+2017-03-22 19:38:51,239 INFO (<function dites_bonjour at 0x02C0CDF0>, 'Mme. Leela')
+2017-03-22 19:38:51,239 INFO (<function dites_bonjour at 0x02C0CDF0>, 'Mme. Amy Wong')
+2017-03-22 19:38:51,239 INFO (<function dites_bonjour at 0x02C0CDF0>, 'Mme. Mom')
+2017-03-22 19:38:51,240 INFO (<function dites_bonjour at 0x02C0CDF0>, 'Mme. LaBarbara Conrad')
+2017-03-22 19:38:51,240 INFO Process-1 says that dites_bonjour Mme. Leela = Bonjour Mme. Leela !
+2017-03-22 19:38:51,240 INFO Process-1 says that dites_bonjour Mme. Amy Wong = Bonjour Mme. Amy Wong !
+2017-03-22 19:38:51,240 INFO Process-1 says that dites_bonjour Mme. Mom = Bonjour Mme. Mom !
+2017-03-22 19:38:51,240 INFO Process-1 says that dites_bonjour Mme. LaBarbara Conrad = Bonjour Mme. LaBarbara Conrad !
+2017-03-22 19:38:51,240 INFO (<function dites_bonjour at 0x02C0CDF0>, 'M. Fry')
+2017-03-22 19:38:51,240 INFO (<function dites_bonjour at 0x02C0CDF0>, 'M. Bender')
+2017-03-22 19:38:51,240 INFO (<function dites_bonjour at 0x02C0CDF0>, 'M. Hermes Conrad')
+2017-03-22 19:38:51,240 INFO (<function dites_bonjour at 0x02C0CDF0>, 'M. Hubert J. Farnsworth')
+2017-03-22 19:38:51,240 INFO (<function dites_bonjour at 0x02C0CDF0>, 'M. John A. Zoidberg')
+2017-03-22 19:38:51,240 INFO (<function dites_bonjour at 0x02C0CDF0>, "M. Richard Nixon's head")
+2017-03-22 19:38:51,242 INFO (<function dites_bonjour at 0x02C0CDF0>, 'M. Zapp Brannigan')
+2017-03-22 19:38:51,242 INFO (<function dites_bonjour at 0x02C0CDF0>, 'M. Kif Kroker')
+2017-03-22 19:38:51,242 INFO (<function dites_bonjour at 0x02C0CDF0>, 'M. Nibbler')
+2017-03-22 19:38:51,242 INFO (<function dites_bonjour at 0x02C0CDF0>, 'M. Scruffy')
+2017-03-22 19:38:51,243 INFO (<function dites_bonjour at 0x02C0CDF0>, 'M. Leo Wong')
+2017-03-22 19:38:51,243 INFO (<function dites_bonjour at 0x02C0CDF0>, 'M. Lrrr')
+2017-03-22 19:38:51,243 INFO (<function dites_bonjour at 0x02C0CDF0>, 'M. Cubert Farnsworth')
+2017-03-22 19:38:51,243 INFO (<function dites_bonjour at 0x02C0CDF0>, 'M. Dwight Conrad')
+2017-03-22 19:38:51,243 INFO Process-1 says that dites_bonjour M. Fry = Bonjour M. Fry !
+2017-03-22 19:38:51,243 INFO Process-1 says that dites_bonjour M. Bender = Bonjour M. Bender !
+2017-03-22 19:38:51,243 INFO Process-1 says that dites_bonjour M. Hermes Conrad = Bonjour M. Hermes Conrad !
+2017-03-22 19:38:51,243 INFO Process-1 says that dites_bonjour M. Hubert J. Farnsworth = Bonjour M. Hubert J. Farnsworth !
+2017-03-22 19:38:51,243 INFO Process-1 says that dites_bonjour M. John A. Zoidberg = Bonjour M. John A. Zoidberg !
+2017-03-22 19:38:51,243 INFO Process-1 says that dites_bonjour M. Richard Nixon's head = Bonjour M. Richard Nixon's head !
+2017-03-22 19:38:51,243 INFO Process-1 says that dites_bonjour M. Zapp Brannigan = Bonjour M. Zapp Brannigan !
+2017-03-22 19:38:51,244 INFO Process-1 says that dites_bonjour M. Kif Kroker = Bonjour M. Kif Kroker !
+2017-03-22 19:38:51,244 INFO Process-1 says that dites_bonjour M. Nibbler = Bonjour M. Nibbler !
+2017-03-22 19:38:51,244 INFO Process-1 says that dites_bonjour M. Scruffy = Bonjour M. Scruffy !
+2017-03-22 19:38:51,244 INFO Process-1 says that dites_bonjour M. Leo Wong = Bonjour M. Leo Wong !
+2017-03-22 19:38:51,244 INFO Process-1 says that dites_bonjour M. Lrrr = Bonjour M. Lrrr !
+2017-03-22 19:38:51,244 INFO Process-1 says that dites_bonjour M. Cubert Farnsworth = Bonjour M. Cubert Farnsworth !
+2017-03-22 19:38:51,244 INFO Process-1 says that dites_bonjour M. Dwight Conrad = Bonjour M. Dwight Conrad !
+2017-03-22 19:38:51,246 INFO Main stop

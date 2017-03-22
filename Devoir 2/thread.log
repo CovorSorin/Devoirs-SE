@@ -1,0 +1,44 @@
+2017-03-22 19:38:38,711 INFO Main start
+2017-03-22 19:38:38,726 INFO (<class '__main__.Bonjour'>, 'Mlle. Maria')
+2017-03-22 19:38:38,727 INFO (<class '__main__.Bonjour'>, 'Mlle. Ruth')
+2017-03-22 19:38:38,727 INFO (<class '__main__.Bonjour'>, 'Mlle. Savannah')
+2017-03-22 19:38:38,730 INFO Thread-1 says that Bonjour Mlle. Maria = <Bonjour(Thread-3, initial)>
+2017-03-22 19:38:38,730 INFO Thread-2 says that Bonjour Mlle. Ruth = <Bonjour(Thread-5, initial)>
+2017-03-22 19:38:38,730 INFO Thread-1 says that Bonjour Mlle. Savannah = <Bonjour(Thread-6, initial)>
+2017-03-22 19:38:38,730 INFO (<class '__main__.Bonjour'>, 'Mme. Leela')
+2017-03-22 19:38:38,732 INFO (<class '__main__.Bonjour'>, 'Mme. Amy Wong')
+2017-03-22 19:38:38,732 INFO (<class '__main__.Bonjour'>, 'Mme. Mom')
+2017-03-22 19:38:38,732 INFO (<class '__main__.Bonjour'>, 'Mme. LaBarbara Conrad')
+2017-03-22 19:38:38,733 INFO Thread-2 says that Bonjour Mme. Leela = <Bonjour(Thread-8, initial)>
+2017-03-22 19:38:38,733 INFO Thread-4 says that Bonjour Mme. Amy Wong = <Bonjour(Thread-9, initial)>
+2017-03-22 19:38:38,733 INFO Thread-1 says that Bonjour Mme. Mom = <Bonjour(Thread-10, initial)>
+2017-03-22 19:38:38,733 INFO Thread-7 says that Bonjour Mme. LaBarbara Conrad = <Bonjour(Thread-11, initial)>
+2017-03-22 19:38:38,733 INFO (<class '__main__.Bonjour'>, 'M. Fry')
+2017-03-22 19:38:38,733 INFO (<class '__main__.Bonjour'>, 'M. Bender')
+2017-03-22 19:38:38,733 INFO (<class '__main__.Bonjour'>, 'M. Hermes Conrad')
+2017-03-22 19:38:38,733 INFO (<class '__main__.Bonjour'>, 'M. Hubert J. Farnsworth')
+2017-03-22 19:38:38,733 INFO (<class '__main__.Bonjour'>, 'M. John A. Zoidberg')
+2017-03-22 19:38:38,734 INFO (<class '__main__.Bonjour'>, "M. Richard Nixon's head")
+2017-03-22 19:38:38,734 INFO (<class '__main__.Bonjour'>, 'M. Zapp Brannigan')
+2017-03-22 19:38:38,734 INFO (<class '__main__.Bonjour'>, 'M. Kif Kroker')
+2017-03-22 19:38:38,736 INFO (<class '__main__.Bonjour'>, 'M. Nibbler')
+2017-03-22 19:38:38,736 INFO (<class '__main__.Bonjour'>, 'M. Scruffy')
+2017-03-22 19:38:38,736 INFO (<class '__main__.Bonjour'>, 'M. Leo Wong')
+2017-03-22 19:38:38,736 INFO (<class '__main__.Bonjour'>, 'M. Lrrr')
+2017-03-22 19:38:38,736 INFO (<class '__main__.Bonjour'>, 'M. Cubert Farnsworth')
+2017-03-22 19:38:38,736 INFO (<class '__main__.Bonjour'>, 'M. Dwight Conrad')
+2017-03-22 19:38:38,737 INFO Thread-2 says that Bonjour M. Fry = <Bonjour(Thread-12, initial)>
+2017-03-22 19:38:38,737 INFO Thread-4 says that Bonjour M. Bender = <Bonjour(Thread-13, initial)>
+2017-03-22 19:38:38,737 INFO Thread-1 says that Bonjour M. Hermes Conrad = <Bonjour(Thread-14, initial)>
+2017-03-22 19:38:38,737 INFO Thread-7 says that Bonjour M. Hubert J. Farnsworth = <Bonjour(Thread-15, initial)>
+2017-03-22 19:38:38,737 INFO Thread-2 says that Bonjour M. John A. Zoidberg = <Bonjour(Thread-16, initial)>
+2017-03-22 19:38:38,737 INFO Thread-4 says that Bonjour M. Richard Nixon's head = <Bonjour(Thread-17, initial)>
+2017-03-22 19:38:38,737 INFO Thread-1 says that Bonjour M. Zapp Brannigan = <Bonjour(Thread-18, initial)>
+2017-03-22 19:38:38,737 INFO Thread-7 says that Bonjour M. Kif Kroker = <Bonjour(Thread-19, initial)>
+2017-03-22 19:38:38,737 INFO Thread-2 says that Bonjour M. Nibbler = <Bonjour(Thread-20, initial)>
+2017-03-22 19:38:38,737 INFO Thread-4 says that Bonjour M. Scruffy = <Bonjour(Thread-21, initial)>
+2017-03-22 19:38:38,739 INFO Thread-1 says that Bonjour M. Leo Wong = <Bonjour(Thread-22, initial)>
+2017-03-22 19:38:38,739 INFO Thread-7 says that Bonjour M. Lrrr = <Bonjour(Thread-23, initial)>
+2017-03-22 19:38:38,739 INFO Thread-2 says that Bonjour M. Cubert Farnsworth = <Bonjour(Thread-24, initial)>
+2017-03-22 19:38:38,739 INFO Thread-4 says that Bonjour M. Dwight Conrad = <Bonjour(Thread-25, initial)>
+2017-03-22 19:38:38,739 INFO Main stop
