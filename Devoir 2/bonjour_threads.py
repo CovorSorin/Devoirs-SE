@@ -9,15 +9,10 @@ Le premier prgramme en Python
 @version 0.4
 @date 16.feb.2014
 """
-import time
-import random
-import logging
-import sys, threading, logging, os
-import multiprocessing
-from multiprocessing import Process, Queue, current_process, freeze_support
+import sys, threading, logging, os, time, random, logging, multiprocessing
+from multiprocessing import Queue, freeze_support
 from threading import Thread
 from time import sleep
-
 
 class Bonjour(threading.Thread):
     def __init__(self, personne):
@@ -50,11 +45,9 @@ def main(argv=None):
     working_dir = os.path.dirname(os.path.abspath(__file__)) + os.path.sep
     #Configurez le logging pour ecrire dans un fichier texte
     logging.basicConfig(format='%(asctime)s %(levelname)s %(message)s',
-                        filename=working_dir + 'process.log',
+                        filename=working_dir + 'thread.log',
                         level=logging.INFO)
     logging.info("Main start")
-
-    #multiprocessing.log_to_stderr(logging.INFO)
 
     #La boucle principale
     if argv is None:
@@ -81,7 +74,6 @@ def main(argv=None):
                TASKS2.append((Bonjour, (ligne.strip(' \r\n'))))
            if ligne[0:5] == "Mlle.":
                TASKS1.append((Bonjour, (ligne.strip(' \r\n'))))
-           #logging.info("Ligne: %s" % (ligne.strip(' \r\n')))
 
     #TASKS1
 
@@ -90,7 +82,7 @@ def main(argv=None):
         logging.info(task)
         task_queue.put(task)
 
-    # Start worker processes
+    # Start thread
     for i in range(NUMBER_OF_THREADS):
         Thread(target=worker, args=(task_queue, done_queue)).start()
 
@@ -119,7 +111,7 @@ def main(argv=None):
     for i in range(len(TASKS3)):
         logging.info(done_queue.get())
 
-    # Tell child processes to stop
+    # Tell child threads to stop
     for i in range(NUMBER_OF_THREADS):
         task_queue.put('STOP')
         
