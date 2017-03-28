@@ -1,13 +1,5 @@
 """
-Le premier prgramme en Python
-* utilisation des arguments de la lignne de commande
-* les listes et la fonction map
-* les threads
-* le logger
-
-@author Dragos STOICA
-@version 0.4
-@date 16.feb.2014
+@author Sorin COVOR
 """
 import sys, threading, logging, os, time, random, logging, multiprocessing
 from multiprocessing import Queue, freeze_support
