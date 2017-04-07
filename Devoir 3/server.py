@@ -18,6 +18,9 @@ class Server():
 		# get local machine name
 		host = socket.gethostname()
 		
+		# or choose a certain adress
+		# host = "ip_here"
+		
 		port = 6666
 		
 		# clients
