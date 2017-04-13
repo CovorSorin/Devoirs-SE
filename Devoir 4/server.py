@@ -95,9 +95,6 @@ class myHandler(BaseHTTPRequestHandler):
 		                 'CONTENT_TYPE':self.headers['Content-Type'],
 			})
 
-                        # Add to decode queue
-                        self.nsa_queue.put(form["le_texte"].value)
-
 			print "Le texte en clair: %s" % form["le_texte"].value
 			print "Les possibilités de coder le texte:"
 			self.send_response(200)
@@ -108,6 +105,16 @@ class myHandler(BaseHTTPRequestHandler):
 			return			
 
 		if self.path=="/decrypt":
+                        form = cgi.FieldStorage(
+				fp=self.rfile, 
+				headers=self.headers,
+				environ={'REQUEST_METHOD':'POST',
+		                 'CONTENT_TYPE':self.headers['Content-Type'],
+			})
+
+                        # Add to decode queue
+                        self.nsa_queue.put(form["le_texte"].value)
+                        
 			le_texte = self.nsa_queue.get()
 			print "Le texte a decoder: %s" % le_texte
 			self.send_response(200)
