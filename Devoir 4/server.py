@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: cp1252 -*-
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 from os import curdir, sep
 import cgi
@@ -6,33 +7,38 @@ import Queue
 
 PORT_NUMBER = 8000
 
-# Caesar cipher algorithm
 def caesar(plainText, shift): 
         cipherText = ""
         for ch in plainText:
+                ch = ch.lower()
+                if ch == ' ':
+                    cipherText += ' '
                 if ch.isalpha():
                         stayInAlphabet = ord(ch) + shift 
                         if stayInAlphabet > ord('z'):
                                 stayInAlphabet -= 26
                         finalLetter = chr(stayInAlphabet)
                         cipherText += finalLetter
-        print "Decalage: ", shift, " ", cipherText
+        print "Decalage:", shift, cipherText
         return cipherText
-		
-# Caesar decipher algorithm
+
 def decaesar(plainText, shift): 
-        shift = -shift
-        decipherText = ""
+        cipherText = ""
         for ch in plainText:
+                ch = ch.lower()
+                if ch == ' ':
+                    cipherText += ' '
                 if ch.isalpha():
-                        stayInAlphabet = ord(ch) + shift 
+                        stayInAlphabet = ord(ch) - shift
+                        if stayInAlphabet < ord('a'):
+                                diff = stayInAlphabet + shift - ord('a')
+                                stayInAlphabet = diff + ord('a') + 26 - shift 
                         if stayInAlphabet > ord('z'):
-                                stayInAlphabet -= 26
+                                stayInAlphabet -= 26                   
                         finalLetter = chr(stayInAlphabet)
-                        decipherText += finalLetter
-        decipherText.lower()
-        print "Decalage: ", -shift, " ", decipherText
-        return decipherText
+                        cipherText += finalLetter
+        print "Decalage:", shift, cipherText
+        return cipherText
 
 # This class will handles any incoming request from the browser 
 class myHandler(BaseHTTPRequestHandler):
@@ -93,6 +99,7 @@ class myHandler(BaseHTTPRequestHandler):
                         self.nsa_queue.put(form["le_texte"].value)
 
 			print "Le texte en clair: %s" % form["le_texte"].value
+			print "Les possibilités de coder le texte:"
 			self.send_response(200)
 			self.end_headers()
 			for i in range (0, 26):
@@ -102,9 +109,10 @@ class myHandler(BaseHTTPRequestHandler):
 
 		if self.path=="/decrypt":
 			le_texte = self.nsa_queue.get()
-			print "Le texte en encode: %s" % le_texte
+			print "Le texte a decoder: %s" % le_texte
 			self.send_response(200)
 			self.end_headers()
+			print "Le resultat de decodage"
 			for i in range (0, 26):
                                 self.wfile.write("Decalage: " + str(i) + "  ")
                                 self.wfile.write(decaesar(le_texte,i) + '</br>')
