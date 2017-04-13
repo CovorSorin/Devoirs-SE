@@ -26,7 +26,7 @@ Bugs/Problèmes: </br>
 -parfois, le serveur dépasse s'il passe trop de temps</br>
 -pour exécuter juste le décodage, vous devez exécuter le chiffre d'abord</br>
 			
-Comment exécuter:</br>
+Comment exécuter:
 Dans une nouveau terminal:
 
 	python -m server.py
