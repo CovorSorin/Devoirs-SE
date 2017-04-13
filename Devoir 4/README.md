@@ -1,16 +1,14 @@
---English--
+--English--</br>
+Caeser cipher implementation on a web server in python.</br>
+https://en.wikipedia.org/wiki/Caesar_cipher</br>
 
-Caeser cipher implementation on a web server in python.
-https://en.wikipedia.org/wiki/Caesar_cipher
-
-
-You can enter a message and code it into Caesar or you can enter a coded message and decode it.
-Bugs/Issues: sometimes the server times out if it passes too much time 
-			 to run just the decipher you need to run the cipher first
-	
-	
-How to run:
+You can enter a message and code it into Caesar or you can enter a coded message and decode it.</br>
+Bugs/Issues: sometimes the server times out if it passes too much time </br>
+			 to run just the decipher you need to run the cipher first</br>
+		
+How to run:</br>
 In a terminal run:
+
 	python -m server.py
 To open the html:
 http://localhost:8000  
@@ -31,6 +29,6 @@ Comment exécuter:
 
 Dans une nouveau terminal:
 
-	python -m server.py\
+	python -m server.py
 Pour ouvrir le html:
 http://localhost:8000  
