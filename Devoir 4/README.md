@@ -31,7 +31,6 @@ Comment exécuter:
 
 Dans une nouveau terminal:
 
-	python -m server.py
-	\n
+	python -m server.py\
 Pour ouvrir le html:
 http://localhost:8000  
